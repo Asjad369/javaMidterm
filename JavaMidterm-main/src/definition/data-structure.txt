@@ -1,0 +1,97 @@
+***ANSWER ALL QUESTIONS BELOW***
+
+Why do we need data structure?
+Answer: data structures helps us with organizing, managing, and storing data efficiently.
+
+What are the various operations that can be performed on different data structures?
+Answer:insertion, deletion, searching, sorting
+
+When would we use data structures in the real world?
+Answer: when you do not know the size of data.
+
+What is an Array?
+Answer:
+An array is a data structure that contains a group of elements. Typically these elements are all of the same data type,
+such as an integer or string
+
+What is the difference between Array and ArrayList?
+Answer:array members are accessed using [], while ArrayList has a set of methods to access elements and modify them.
+ Array is a fixed size data structure while ArrayList is not.
+
+What is a LinkedList?
+Answer:
+Linked lists are linear data structures that hold data in individual objects called nodes. These nodes hold both the
+data and a reference to the next node in the list.
+
+How is an Array different from LinkedList?
+Answer:An array is a collection of elements of a similar data type. A linked list is a collection of objects known as a
+ node where node consists of two parts, i.e., data and address. Array elements store in a contiguous memory location.
+
+What is a Queue?
+Answer: queue is a line first come first out.
+
+What is a Stack (not Java memory - refers to data structure)?
+Answer: stack is a pile of data and the way it works is last in first out.
+
+What is FIFO and LIFO?
+Answer: first in first out, last in first out.
+
+Explain Big O Notation?
+Answer: we use for talking about how long an algorithm takes to run or how much memory is used by algorithm,
+
+What is the best case to search an element from an array?
+Answer:  linear search is the best because it has to parse through data and allighn it.
+
+What is the worst case to search an element from an array?
+Answer: the worst case when o(n^2) because you are comparing all the elements with each other.
+
+Describe what a tree data structure is?
+Answer:A tree is a hierarchical data structure defined as a collection of nodes. Nodes represent value and nodes are
+connected by edges. ... The tree originates from this, and hence it does not have any parent. Each node has one parent
+only but can have multiple children.
+
+Describe what a graph data structure is?
+Answer:A Graph in the data structure can be termed as a data structure consisting of data that is stored among many
+groups of edges(paths) and vertices (nodes), which are interconnected
+
+What is the difference between the HashTable and HashMap?
+Answer:HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model
+Answer:RDBMS: Arrays, network data model: Graph, Hierarchical data model: Trees
+
+How do HashMaps work in Java? How do they store values, and when are they useful?
+Answer:HashMap internally stores mapping in the form of Map. Entry object which contains both key and value object.
+When you want to retrieve the object, you call the get() method and again pass the key object.
+
+What is ArrayIndexOutOfBoundsException in java? When does it occur?
+Answer:The ArrayIndexOutOfBoundsException occurs whenever we are trying to access any item of an array at an index
+which is not present in the array.
+
+What are the different ways of copying an array into another array?
+Answer:Manually.
+       Arrays.copyOf()
+       System.arraycopy()
+       Object.clone()
+
+What is DFS and BFS?
+Answer:BFS(Breadth First Search) uses Queue data structure for finding the shortest path. DFS(Depth First Search) uses
+Stack data structure
+
+What is Recursion?
+Answer:Recursion is a basic programming technique you can use in Java, in which a method calls itself to solve some problem
+
+What are linear and non-linear data Structures?
+Answer:In a linear data structure, data elements are arranged in a linear order where each and every elements are
+attached to its previous and next adjacent. In a non-linear data structure, data elements are attached in hierarchically
+ manner
+
+
+Outline different sorting algorithms and their time complexities:
+
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a) In terms of Accessing elements:
+  b) In terms of Inserting elements:
+  c) In terms of Searching elements:
+  d) In terms of Removing elements:
