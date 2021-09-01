@@ -55,28 +55,36 @@ Answer:A Graph in the data structure can be termed as a data structure consistin
 groups of edges(paths) and vertices (nodes), which are interconnected
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer:HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value
 
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model
-Answer:
+Answer:RDBMS: Arrays, network data model: Graph, Hierarchical data model: Trees
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer:HashMap internally stores mapping in the form of Map. Entry object which contains both key and value object.
+When you want to retrieve the object, you call the get() method and again pass the key object.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer:The ArrayIndexOutOfBoundsException occurs whenever we are trying to access any item of an array at an index
+which is not present in the array.
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer:Manually.
+       Arrays.copyOf()
+       System.arraycopy()
+       Object.clone()
 
 What is DFS and BFS?
-Answer:
+Answer:BFS(Breadth First Search) uses Queue data structure for finding the shortest path. DFS(Depth First Search) uses
+Stack data structure
 
 What is Recursion?
-Answer:
+Answer:Recursion is a basic programming technique you can use in Java, in which a method calls itself to solve some problem
 
 What are linear and non-linear data Structures?
-Answer:
+Answer:In a linear data structure, data elements are arranged in a linear order where each and every elements are
+attached to its previous and next adjacent. In a non-linear data structure, data elements are attached in hierarchically
+ manner
 
 
 Outline different sorting algorithms and their time complexities:

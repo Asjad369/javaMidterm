@@ -72,6 +72,8 @@ the variables of a class are always hidden from other classes.
 of the parent object.
 -Polymorphism: Polymorphism refers to one of the OOPs concepts in Java which is the ability of a variable, object or
 function to take on multiple forms.
+what is static polymorphism: overloading
+what is dynamic polymorphism: overriding
 
 What is Java Package and which package is imported by default?
 Answer:A java package is a group of similar types of classes, interfaces and sub-packages. Java compiler imports java.
@@ -133,7 +135,7 @@ Is JVM platform independent?
 Answer: no it is not.
 
 What version of Java are you using?
-Answer:12.0
+Answer:11.0
 
 What does JAR stand for?
 Answer:Java Archive

@@ -90,7 +90,7 @@ public class Sort {
 
     public int[] merge(int arr[], int l, int m, int r)
     {
-        // Find sizes of two subarrays to be merged
+        // Find sizes of two sub-arrays to be merged
         int n1 = m - l + 1;
         int n2 = r - m;
 
