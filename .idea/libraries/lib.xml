@@ -11,6 +11,14 @@
       <root url="jar://$PROJECT_DIR$/JavaMidterm-main/lib/javax.json-1.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/JavaMidterm-main/lib/mysql-connector-java-5.1.41-bin.jar!/" />
       <root url="jar://$PROJECT_DIR$/JavaMidterm-main/lib/java-json.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/resume/Qa Testing/dependencies/poi-5.0.0/poi-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/resume/Qa Testing/dependencies/poi-5.0.0/poi-examples-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/resume/Qa Testing/dependencies/poi-5.0.0/poi-excelant-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/resume/Qa Testing/dependencies/poi-5.0.0/poi-integration-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/resume/Qa Testing/dependencies/poi-5.0.0/poi-ooxml-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/resume/Qa Testing/dependencies/poi-5.0.0/poi-ooxml-full-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/resume/Qa Testing/dependencies/poi-5.0.0/poi-ooxml-lite-5.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/resume/Qa Testing/dependencies/poi-5.0.0/poi-scratchpad-5.0.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

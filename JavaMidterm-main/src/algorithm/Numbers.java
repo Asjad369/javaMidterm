@@ -32,9 +32,9 @@ public class Numbers {
         System.out.println("Total Execution Time of " + num.length + " numbers in Selection Sort took: "
                 + selectionSortExecutionTime + " milliseconds");
 
-        connectToSqlDB.insertDataFromArrayToSqlTable(num, "selection_sort", "SortingNumbers");
-        List<String> numbers = connectToSqlDB.readDataBase("selection_sort", "SortingNumbers");
-        printValue(numbers);
+//        connectToSqlDB.insertDataFromArrayToSqlTable(num, "selection_sort", "SortingNumbers");
+//        List<String> numbers = connectToSqlDB.readDataBase("selection_sort", "SortingNumbers");
+//        printValue(numbers);
 
         int n = num.length;
         randomize(num, n);
@@ -45,9 +45,9 @@ public class Numbers {
         System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort took: "
                 + insertionSortExecutionTime + " milliseconds");
 
-        connectToSqlDB.insertDataFromArrayToSqlTable(num, "insertion_sort", "SortingNumbers");
-        numbers = connectToSqlDB.readDataBase("insertion_sort", "SortingNumbers");
-        printValue(numbers);
+//        connectToSqlDB.insertDataFromArrayToSqlTable(num, "insertion_sort", "SortingNumbers");
+//        numbers = connectToSqlDB.readDataBase("insertion_sort", "SortingNumbers");
+//        printValue(numbers);
 
         
         /*
@@ -64,9 +64,9 @@ public class Numbers {
                 + bubbleSortExecutionTime + " milliseconds");
 
 
-        connectToSqlDB.insertDataFromArrayToSqlTable(num, "bubble_sort", "SortingNumbers");
-        numbers = connectToSqlDB.readDataBase("bubble_sort", "SortingNumbers");
-        printValue(numbers);
+//        connectToSqlDB.insertDataFromArrayToSqlTable(num, "bubble_sort", "SortingNumbers");
+//        numbers = connectToSqlDB.readDataBase("bubble_sort", "SortingNumbers");
+//        printValue(numbers);
 
 
         // merge Sort
@@ -75,9 +75,9 @@ public class Numbers {
         System.out.println("Total Execution Time of " + num.length + " numbers in merge Sort took: "
                 + mergeSortExecutionTime + " milliseconds");
 
-        connectToSqlDB.insertDataFromArrayToSqlTable(num, "merge_sort", "SortingNumbers");
-        numbers = connectToSqlDB.readDataBase("merge_sort", "SortingNumbers");
-        printValue(numbers);
+//        connectToSqlDB.insertDataFromArrayToSqlTable(num, "merge_sort", "SortingNumbers");
+//        numbers = connectToSqlDB.readDataBase("merge_sort", "SortingNumbers");
+//        printValue(numbers);
 
 
 
@@ -89,9 +89,9 @@ public class Numbers {
 
 
 
-        connectToSqlDB.insertDataFromArrayToSqlTable(num, "heap_sort", "SortingNumbers");
-        numbers = connectToSqlDB.readDataBase("heap_sort", "SortingNumbers");
-        printValue(numbers);
+//        connectToSqlDB.insertDataFromArrayToSqlTable(num, "heap_sort", "SortingNumbers");
+//        numbers = connectToSqlDB.readDataBase("heap_sort", "SortingNumbers");
+//        printValue(numbers);
 
 
 
@@ -102,9 +102,9 @@ public class Numbers {
                 + quickSortExecutionTime + " milliseconds");
 
 
-        connectToSqlDB.insertDataFromArrayToSqlTable(num, "quick_sort", "SortingNumbers");
-        numbers = connectToSqlDB.readDataBase("quick_sort", "SortingNumbers");
-        printValue(numbers);
+//        connectToSqlDB.insertDataFromArrayToSqlTable(num, "quick_sort", "SortingNumbers");
+//        numbers = connectToSqlDB.readDataBase("quick_sort", "SortingNumbers");
+//        printValue(numbers);
 
 
         // shell Sort
@@ -114,9 +114,9 @@ public class Numbers {
                 + shellSortExecutionTime + " milliseconds");
 
 
-        connectToSqlDB.insertDataFromArrayToSqlTable(num, "shell_sort", "SortingNumbers");
-        numbers = connectToSqlDB.readDataBase("shell_sort", "SortingNumbers");
-        printValue(numbers);
+//        connectToSqlDB.insertDataFromArrayToSqlTable(num, "shell_sort", "SortingNumbers");
+//        numbers = connectToSqlDB.readDataBase("shell_sort", "SortingNumbers");
+//        printValue(numbers);
 
 
         // bucket Sort
@@ -127,9 +127,9 @@ public class Numbers {
 
 
 
-        connectToSqlDB.insertDataFromArrayToSqlTable(num, "bucket_sort", "SortingNumbers");
-        numbers = connectToSqlDB.readDataBase("bucket_sort", "SortingNumbers");
-        printValue(numbers);
+//        connectToSqlDB.insertDataFromArrayToSqlTable(num, "bucket_sort", "SortingNumbers");
+//        numbers = connectToSqlDB.readDataBase("bucket_sort", "SortingNumbers");
+//        printValue(numbers);
 
         /*
         Can you come to conclusion about which sorting algorithm is most efficient, given the size of the data set?
@@ -149,7 +149,7 @@ public class Numbers {
     public static void storeRandomNumbers(int[] num) {
         Random rand = new Random();
         for (int i = 0; i < num.length; i++) {
-            num[i] = rand.nextInt(1000000);
+            num[i] = rand.nextInt(1000);
         }
     }
 
